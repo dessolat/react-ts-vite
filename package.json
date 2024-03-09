@@ -9,7 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
 		"compose-build": "docker-compose up --build --no-recreate -d",
-		"attach": "docker exec -it react-ts-vite /bin/sh"
+		"attach": "docker exec -it react-ts-21 /bin/sh"
   },
   "dependencies": {
     "react": "^18.2.0",
